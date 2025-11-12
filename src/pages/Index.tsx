@@ -34,7 +34,7 @@ const Index = () => {
       <div className="w-full max-w-2xl animate-fade-in">
         <div className="text-center mb-8">
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-4 tracking-tight">
-            Radio<span className="text-primary">Wave</span>
+            Dark <span className="text-primary">Sprinter</span>
           </h1>
           <p className="text-muted-foreground text-lg">Live Electronic Music Stream</p>
         </div>
