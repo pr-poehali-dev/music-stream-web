@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Get track list",
+      "method": "GET",
+      "path": "/?path=list",
+      "expectedStatus": 200
+    },
+    {
+      "name": "Add new track",
+      "method": "POST",
+      "path": "/",
+      "body": {
+        "youtube_url": "https://youtube.com/watch?v=test123",
+        "title": "Test Track",
+        "artist": "Test Artist",
+        "year": "2024",
+        "album": "Test Album",
+        "cover_url": "https://example.com/cover.jpg"
+      },
+      "expectedStatus": 201
+    }
+  ]
+}
